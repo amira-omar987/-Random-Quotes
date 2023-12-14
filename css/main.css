@@ -1,0 +1,35 @@
+body {
+  background-color: #4e4e4e4e;
+  background-image: url(../img/room-interior-ancient-egyptian-style_717906-1657.avif);
+}
+
+h1 {
+  font-family: "Lobster", sans-serif;
+  font-size: 4rem;
+  color: #efdede;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  font-family: 'Italianno', cursive;
+  font-size: 1.5rem;
+  background-color: burlywood;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #4c2f2f;
+  border-style: none;
+  color: black;
+  font-weight: 600;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
